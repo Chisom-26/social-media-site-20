@@ -1,0 +1,69 @@
+.hover-component {
+  position: fixed; /* or absolute */
+  top: 50%; /* adjust as needed */
+  left: 50%; /* adjust as needed */
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* to ensure it's above other elements */
+  background-color: #008044; /* or any other color */
+  padding: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  margin: 20px;
+  border-block-end: 30px solid #01562e;
+  border-inline-color: 10px solid #acd8c3;
+}
+
+.toggle-switch {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Additional styles for form and toggle button */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid #5a5858;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #4343cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: darkblue;
+}
+h1{
+  color: #1e2815;
+  font-family: Arial, sans-serif,;
+  text-underline-offset: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+p{
+  color: #083026;
+  font-family: Arial, sans-serif,;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+h3{
+  color: #ff0000;
+  line-height: 1400px;
+  text-align: center;
+  font-size: 25px;
+  outline-width: 5px;
